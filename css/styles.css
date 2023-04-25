@@ -12,12 +12,14 @@ header {
 	background-color: #0C3860;
 	padding-top: 780px;
 	border-top: groove thin #FAF0CA;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: groove 2px;
 }
 
 
 header blockquote {
 	color: #F4D35E;
-	text-align: center;
 	font-size: 25em;
 	font-stretch: expanded;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
@@ -25,6 +27,9 @@ header blockquote {
 	position: relative;
 	bottom: 380px;
 	text-decoration: underline;
+	text-align: center;
+	margin-left: 5%
+
 }
 		
 .tnav {
@@ -106,7 +111,7 @@ article {
 
 
 
-.articlethree {
+.articlethree  {
 		padding-left: 20%;
 	padding-right: 20%;
 	padding-top: 150px;
@@ -115,20 +120,59 @@ article {
 	font-size: 19px;
 }
 
+section p {
+	font-size: 2.5em;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #FAF0CA;
+	
+}
 
+.sec_a {
+	float: left;
+	width: 40%;
+	margin-left: 1%;
+				padding-bottom: 5%;
 
+}
 
+.sec_b  {
+	float: right;
+	width: 40%;
+	margin-right: 1%
+			padding-bottom: 5%;
 
+}
+footer {
+	clear:both;
+}
+button[type="submit"] {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+		margin-left: 20%;
+}
+footer{
+		background-color: rgba(0,0,0,0.41);
+	height: 245px;
+	float: clear;
+}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		.bbl {
+	text-align: center;
+	color: #EDF0F1;
+	position: relative;
+	top:80px;
+	text-shadow: 0px 0px 30px #000
+}
+
+.botom_nav {
+	text-align: center;
+		float: clear;
+
+}
 		
 		
 		
